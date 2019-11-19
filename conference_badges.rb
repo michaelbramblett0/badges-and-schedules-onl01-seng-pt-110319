@@ -18,6 +18,9 @@ def batch_badge_creator(array)
   badge_messages
 end
 def assign_rooms(rooms)
-    badge_messages = []
+    room_number = []
     rooms.each do |rm|
-      
+      room_number << badge_messages << badge_maker(name)
+    end
+    room_number
+end
