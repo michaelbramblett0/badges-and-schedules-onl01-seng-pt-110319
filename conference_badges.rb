@@ -20,7 +20,7 @@ end
 def assign_rooms(rooms)
     room_number = []
     rooms.each do |rm|
-      room_number << badge_messages << badge_maker(name)
+      room_number << badge_maker(name)
     end
     room_number
 end
