@@ -20,7 +20,7 @@ end
 def assign_rooms(rooms)
     room_number = "Hello, #{name}! You'll be assigned to room #{rooms}!"
     rooms.each do |rm| 
-      room_number << badge_messages
+      room_number << badge_maker
     end
     room_number
 end
