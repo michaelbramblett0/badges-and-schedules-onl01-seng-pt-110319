@@ -20,7 +20,7 @@ end
 def assign_rooms(room)
     each_with_index = "Hello, #{name}! You'll be assigned to room #{room}!"
     room.each do |rm| 
-      room_number << badge_maker(name)
+      each_with_index << badge_maker(name)
     end
     each_with_index
 end
