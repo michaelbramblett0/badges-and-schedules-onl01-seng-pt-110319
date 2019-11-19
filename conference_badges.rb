@@ -22,5 +22,5 @@ def assign_rooms(room)
     room.each do |rm| 
       room_number << badge_maker(name)
     end
-    room_number
+    each_with_index
 end
