@@ -24,4 +24,4 @@ def assign_rooms(room)
       room << badge_maker(name)
     end
     room
-end
+  end
